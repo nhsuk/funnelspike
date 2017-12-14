@@ -1,0 +1,18 @@
+{
+  "name": "funnel",
+  "version": "1.0.0",
+  "description": "spike project for funnelback",
+  "main": "index.js",
+  "author": "markysoft",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "async": "^2.6.0",
+    "eslint-config-nhsuk": "^0.7.0",
+    "request": "^2.83.0"
+  },
+  "scripts": {
+    "load": "node load",
+    "read": "node read"
+  }
+}
