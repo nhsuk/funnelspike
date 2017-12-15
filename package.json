@@ -9,10 +9,11 @@
   "dependencies": {
     "async": "^2.6.0",
     "eslint-config-nhsuk": "^0.7.0",
+    "jsontoxml": "^0.1.0",
     "request": "^2.83.0"
   },
   "scripts": {
-    "load": "node load",
+    "load": "node loadXml",
     "read": "node read"
   }
 }
