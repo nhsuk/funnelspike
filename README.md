@@ -21,3 +21,20 @@ This can be done via 'Browse Collection Configuration Files' in the Administer t
 Searches my be performed against the endpoint via `https://nhs-dev-search01.squiz.co.uk/s/search.json?query=!FunDoesNotExist:PadreNul&collection=<collectionName>&maxdist=32.19&origin=54.159074,-0.897925&sort=prox`
 
 Note: the `!FunDoesNotExist:PadreNul` is funnelback's way of searching for everything!
+
+For an XML document fields to search on can be configured in the `xml.cfg` and `metamap.cfg`, i.e. to expose the pharmacy `identifier` field as `pharmcode`
+add the line:
+
+`pharmcode,1,,//identifier`
+
+to xml.cfg [(more info on settings)](https://nhs-dev-search01.squiz.co.uk/search/admin/help/xml_cfg.html)
+
+and the line:
+
+`pharmcode,1,pharmcode`
+
+to metamap.cfg [(more info on settings)](https://nhs-dev-search01.squiz.co.uk/search/admin/help/metamap_cfg.html)
+
+the field can then be searched on via `fieldname:value`, i.e.
+
+https://nhs-dev-search01.squiz.co.uk/s/search.html?collection=mark-test-xml&profile=_default_preview&query=pharmcode:FWM71

@@ -1,5 +1,7 @@
 const client = require('./lib/funnelClient');
 
+const pharmId = process.argv[2] || 'FEJ67';
+
 async function getFromFunnelback(id) {
   try {
     const recordRaw = await client.getRecord(id);
@@ -11,4 +13,4 @@ async function getFromFunnelback(id) {
   }
 }
 
-getFromFunnelback('FWM71');
+getFromFunnelback(pharmId);

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<pharmacy>
+  <identifierType>Pharmacy Contract</identifierType>
+  <openingTimes>
+    <general>
+      <monday>
+        <opens>08:50</opens>
+        <closes>19:00</closes>
+      </monday>
+      <tuesday>
+        <opens>08:50</opens>
+        <closes>19:00</closes>
+      </tuesday>
+      <wednesday>
+        <opens>08:50</opens>
+        <closes>19:00</closes>
+      </wednesday>
+      <thursday>
+        <opens>08:50</opens>
+        <closes>19:00</closes>
+      </thursday>
+      <friday>
+        <opens>08:50</opens>
+        <closes>19:00</closes>
+      </friday>
+      <saturday>
+        <opens>08:50</opens>
+        <closes>16:00</closes>
+      </saturday>
+      <sunday/>
+    </general>
+    <alterations>
+      <2013-08-26/>
+      <2013-12-25/>
+      <2013-12-26/>
+      <2014-01-01/>
+    </alterations>
+  </openingTimes>
+  <outOfHours/>
+  <hasEps>true</hasEps>
+  <address>
+    <line1>111-113 St Peters Street</line1>
+    <line2>St.Albans</line2>
+    <line3/>
+    <city>Hertfordshire</city>
+    <county/>
+    <postcode>AL1 3ET</postcode>
+  </address>
+  <contacts>
+    <website/>
+    <additionalContacts/>
+    <telephoneNumber>01727 850480</telephoneNumber>
+    <isNonGeographicPhoneNumber>false</isNonGeographicPhoneNumber>
+    <phoneChargeMethod>unknown method</phoneChargeMethod>
+    <phoneChargeAmount/>
+    <telephoneExtension/>
+    <fax/>
+    <email/>
+  </contacts>
+  <directionsInformation/>
+  <externalProfileUrl/>
+  <identifier>FEJ67</identifier>
+  <name>Derek's Pharmacy</name>
+  <organisationType>Pharmacy</organisationType>
+  <parkingInformation/>
+  <provider>Hertfordshire And The South Midlands Area Team</provider>
+  <summary/>
+  <links>
+    <Tracking pixel/>
+    <Link to self/>
+    <NHS Choices profile/>
+  </links>
+  <location>
+    <type>Point</type>
+    <coordinates>-0.3355759680271148751.75606155395508</coordinates>
+  </location>
+  <openingTimesAsOffset>
+    <session>
+      <opens>530</opens>
+      <closes>1140</closes>
+    </session>
+    <session>
+      <opens>1970</opens>
+      <closes>2580</closes>
+    </session>
+    <session>
+      <opens>3410</opens>
+      <closes>4020</closes>
+    </session>
+    <session>
+      <opens>4850</opens>
+      <closes>5460</closes>
+    </session>
+    <session>
+      <opens>6290</opens>
+      <closes>6900</closes>
+    </session>
+    <session>
+      <opens>7730</opens>
+      <closes>8160</closes>
+    </session>
+  </openingTimesAsOffset>
+  <openingTimesAlterationsAsOffset>
+    <date>2013-08-26</date>
+    <date>2013-12-25</date>
+    <date>2013-12-26</date>
+    <date>2014-01-01</date>
+  </openingTimesAlterationsAsOffset>
+  <url>http%3A%2F%2FFEJ67%2F</url>
+  <geoPosition>51.75606155395508;-0.33557596802711487</geoPosition>
+</pharmacy>
