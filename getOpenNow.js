@@ -5,11 +5,11 @@ let time = 8000;
 const minutesInADay = 1440;
 
 const urlStart = `https://nhs-dev-search01.squiz.co.uk/s/search.json?collection=${collection}&query=!FunDoesNotExist:PadreNul`;
-const timeRange = `&ge_closes=${time}&le_opens=${time}`;
-const geoRange = '&maxdist=32.19&origin=54.159074,-0.897925&sort=prox';
-const url = urlStart + timeRange + geoRange;
 
 function getOptions() {
+  const timeRange = `&ge_closes0=${time}&le_opens0=${time}`;
+  const geoRange = '&maxdist=32.19&origin=54.159074,-0.897925&sort=prox';
+  const url = urlStart + timeRange + geoRange;
   console.log(url);
   return {
     method: 'get',
@@ -38,7 +38,7 @@ async function search() {
 }
 
 async function openNow() {
-  time = getMinutesOffset(1, '19:00');
+  time = getMinutesOffset(1, '09:00');
   const res = await search();
   // const resultsSummary = JSON.parse(res).response.resultPacket.resultsSummary;
   const results = JSON.parse(res).response.resultPacket.results;
