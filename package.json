@@ -9,8 +9,8 @@
   "dependencies": {
     "async": "^2.6.0",
     "eslint-config-nhsuk": "^0.7.0",
-    "jsontoxml": "^0.1.0",
-    "request": "^2.83.0"
+    "request": "^2.83.0",
+    "xml-js": "^1.6.1"
   },
   "scripts": {
     "load": "node loadXml",

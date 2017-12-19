@@ -1,10 +1,8 @@
-const jsontoxml = require('jsontoxml');
+const convert = require('xml-js');
 const transform = require('./lib/transform');
 const rawdata = require('./pharmacy-data');
 
-console.log(rawdata.length);
 const data = transform(rawdata.slice(0, 3));
-
-const xmls = data.map(pharmacy => jsontoxml({ pharmacy }));
-const xml = `<?xml version="1.0" encoding="UTF-8" standalone="no" ?>${xmls.join('')}`;
+const xml = convert.js2xml({ pharmacy: data[0] }, { compact: true });
+console.log(data[0]);
 console.log(xml);
