@@ -7,7 +7,7 @@ const minutesInADay = 1440;
 const urlStart = `https://nhs-dev-search01.squiz.co.uk/s/search.json?collection=${collection}&query=!FunDoesNotExist:PadreNul`;
 
 function getOptions() {
-  const timeRange = `&ge_closes0=${time}&le_opens0=${time}`;
+  const timeRange = `&ge_closes=${time}&le_opens=${time}`;
   const geoRange = '&maxdist=32.19&origin=54.159074,-0.897925&sort=prox';
   const url = urlStart + timeRange + geoRange;
   console.log(url);
