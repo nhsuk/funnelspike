@@ -5,111 +5,89 @@
     <general>
       <monday>
         <opens>09:00</opens>
-        <closes>13:00</closes>
-        <opens>14:00</opens>
         <closes>17:30</closes>
       </monday>
       <tuesday>
         <opens>09:00</opens>
-        <closes>13:00</closes>
-        <opens>14:00</opens>
         <closes>17:30</closes>
       </tuesday>
       <wednesday>
         <opens>09:00</opens>
-        <closes>13:00</closes>
-        <opens>14:00</opens>
         <closes>17:30</closes>
       </wednesday>
       <thursday>
         <opens>09:00</opens>
-        <closes>13:00</closes>
-        <opens>14:00</opens>
         <closes>17:30</closes>
       </thursday>
       <friday>
         <opens>09:00</opens>
-        <closes>13:00</closes>
-        <opens>14:00</opens>
-        <closes>17:00</closes>
+        <closes>17:30</closes>
       </friday>
       <saturday>
         <opens>09:00</opens>
-        <closes>12:00</closes>
+        <closes>16:00</closes>
       </saturday>
-      <sunday/>
     </general>
     <alterations>
-      <2016-12-31>
-        <opens>09:00</opens>
-        <closes>12:00</closes>
-      </2016-12-31>
-      <2016-12-24>
-        <opens>09:00</opens>
-        <closes>12:00</closes>
-      </2016-12-24>
-      <2016-12-25/>
-      <2016-12-26/>
-      <2016-12-27/>
-      <2017-01-01/>
-      <2017-01-02/>
+      <2017-12-26>
+        <opens>12:00</opens>
+        <closes>13:00</closes>
+      </2017-12-26>
     </alterations>
   </openingTimes>
-  <outOfHours/>
+  <outOfHours></outOfHours>
   <hasEps>true</hasEps>
   <address>
-    <line1>16 High Street</line1>
-    <line2>Lytchett</line2>
-    <line3>Matravers</line3>
-    <city>Nr Poole</city>
-    <county>Dorset</county>
-    <postcode>BH16 6BG</postcode>
+    <line1>24 Market Place</line1>
+    <line2>Malton</line2>
+    <line3></line3>
+    <city></city>
+    <county></county>
+    <postcode>YO17 7LX</postcode>
   </address>
   <contacts>
-    <website>http://www.purbeckpharmacies.co.uk</website>
-    <additionalContacts/>
-    <telephoneNumber>01202 631815</telephoneNumber>
+    <website>http://www.lloydspharmacy.com</website>
+    <telephoneNumber>01653 692040</telephoneNumber>
     <isNonGeographicPhoneNumber>false</isNonGeographicPhoneNumber>
     <phoneChargeMethod>flat-rate</phoneChargeMethod>
     <phoneChargeAmount>0</phoneChargeAmount>
     <telephoneExtension/>
-    <fax>01202 624023</fax>
-    <email>lytchett@purbeckpharmacies.co.uk</email>
+    <fax/>
+    <email>lp7375@lloydspharmacy.co.uk</email>
   </contacts>
   <directionsInformation/>
   <externalProfileUrl/>
-  <identifier>FN499</identifier>
-  <name>Lytchett Pharmacy</name>
+  <identifier>FJ037</identifier>
+  <name>LloydsPharmacy</name>
   <organisationType>Pharmacy</organisationType>
   <parkingInformation/>
-  <provider>Wessex Area Team</provider>
+  <provider>North Yorkshire And Humber Area Team</provider>
   <summary/>
   <links>
-    <Tracking pixel/>
-    <Link to self/>
-    <NHS Choices profile/>
+    <rel>NoFollow</rel>
+    <href>http://statse.webtrendslive.com/dcss9yzisf9xjyg74mgbihg8p_8d2u/njs.gif?dcsuri=%2Fexternalservices%2Forganisationapi%2Forganisations%2FFJ037&amp;wt.js=no&amp;wt.cg_n=InwardAPI&amp;wt.z_SyndicationDomain={YourDomainName}</href>
+    <name>Tracking pixel</name>
+  </links>
+  <links>
+    <rel>Self</rel>
+    <href>http://www.nhs.uk/externalservices/organisationapi/organisations/FJ037</href>
+    <name>Link to self</name>
+  </links>
+  <links>
+    <rel>Alternate</rel>
+    <href>http://www.nhs.uk/services/pharmacies/overview/defaultview.aspx?id=FJ037</href>
+    <name>NHS Choices profile</name>
   </links>
   <location>
     <type>Point</type>
-    <coordinates>-2.078205823898315450.75788497924805</coordinates>
+    <coordinates>-0.7985714673995972</coordinates>
+    <coordinates>54.135162353515625</coordinates>
   </location>
   <openingTimesAsOffset>
-    <opens>840</opens>
+    <date>weekly</date>
+    <opens>540</opens>
     <closes>1050</closes>
   </openingTimesAsOffset>
-  <openingTimesAlterationsAsOffset>
-    <date>2016-12-31</date>
-    <opens>540</opens>
-    <closes>720</closes>
-    <date>2016-12-24</date>
-    <opens>540</opens>
-    <closes>720</closes>
-    <date>2016-12-25</date>
-    <date>2016-12-26</date>
-    <date>2016-12-27</date>
-    <date>2017-01-01</date>
-    <date>2017-01-02</date>
-  </openingTimesAlterationsAsOffset>
-  <url>http%3A%2F%2FFN499%2F1%2F</url>
-  <geoPosition>50.75788497924805;-2.0782058238983154</geoPosition>
+  <url>http%3A%2F%2FFJ037%2F0%2F</url>
+  <geoPosition>54.135162353515625;-0.7985714673995972</geoPosition>
 </pharmacy>

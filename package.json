@@ -9,11 +9,18 @@
   "dependencies": {
     "async": "^2.6.0",
     "eslint-config-nhsuk": "^0.7.0",
+    "moment": "^2.20.1",
     "request": "^2.83.0",
     "xml-js": "^1.6.1"
   },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "istanbul": "^1.1.0-alpha.1",
+    "mocha": "^4.0.0"
+  },
   "scripts": {
     "load": "node loadXml",
-    "read": "node read"
+    "read": "node read",
+    "test": "mocha --exit --recursive test"
   }
 }
