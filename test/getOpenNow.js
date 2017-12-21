@@ -5,7 +5,7 @@ const funnelSearch = require('../lib/funnelSearch');
 const expect = chai.expect;
 
 describe('getOpenNow', () => {
-  it('should return false for an invalid postcode', async () => {
+  it('should return pharmacies open now', async () => {
     const friday2pm = moment('2017-09-15 14:00:00');
     const latitude = 54.159074;
     const longitude = -0.897925;
@@ -13,7 +13,7 @@ describe('getOpenNow', () => {
     expect(result.length).to.be.greaterThan(0);
   });
 
-  it('should return false for an invalid postcode', async () => {
+  it('should return alteration pharmacies', async () => {
     const xmas2pm = moment('2017-12-25 14:00:00');
     const latitude = 54.159074;
     const longitude = -0.897925;

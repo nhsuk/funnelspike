@@ -1,7 +1,7 @@
 const client = require('./lib/funnelClient');
 const convert = require('xml-js');
 
-const pharmId = process.argv[2] || 'FT249/4/';
+const pharmId = process.argv[2] || 'FJA60/1/';
 
 async function getFromFunnelback(id) {
   try {
